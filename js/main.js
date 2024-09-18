@@ -1,6 +1,7 @@
 const cells = document.querySelectorAll('.cell');
 const statusText = document.querySelector('.statusText');
 const ressetBtn = document.querySelector('.btn_reset');
+// const inicio = document.querySelector('#inicio');
 
 const ganador = [
     [0,1,2],
@@ -84,3 +85,9 @@ function resetGame(){
     cells.forEach(cell => cell.textContent = "");
     running = true;
 }
+
+// inicio.addEventListener('click', irInicio);
+
+// function irInicio(){
+//     window.location.href = 'index.html';
+// }
